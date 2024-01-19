@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    color: white;
+    background-color: #f1fff0 !important;
+}
+
+.container {
+    text-align: center;
+}
+
+.inp {
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.15);
+}
+
+.delete-block {
+    margin-top: 20px;
+}
+
+.bt {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: Arial;
+}
+.bt-add {
+    color: white;
+    background-color: green;
+}
+.bt-upd {
+    color: white;
+    background-color: cornflowerblue;
+}
+.bt-del {
+    color: white;
+    background-color: red;
+}
+
+h1 {
+    color: #333;
+    font-weight: bolder;
+}
+
+input {
+    padding: 8px;
+    margin-right: 5px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+table{
+    margin-top: 15px;
+    padding: 8px;
+    margin-right: 5px;
+    font-size: large;
+}
+
+.loading {
+    margin-top: 20px;
+    height: 10px;
+    background: green;
+    animation-name: load;
+    animation-duration: 30s;
+    width: 1%;
+    display: none;
+    animation: progres 3s infinite linear;
+
+}
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
